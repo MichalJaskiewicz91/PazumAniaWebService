@@ -7,6 +7,7 @@ namespace PazumAniaWebService.Models
 {
     public class Idea
     {
+        //KoronaWirus
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
