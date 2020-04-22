@@ -40,4 +40,5 @@ namespace PazumAniaWebService.Models
 
         public string ProviderKey { get; set; }
     }
+
 }

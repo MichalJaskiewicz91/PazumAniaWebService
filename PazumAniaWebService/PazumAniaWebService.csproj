@@ -181,6 +181,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AccountMVCController.cs" />
     <Compile Include="Controllers\DBController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IdeasController.cs" />
@@ -191,6 +192,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
+    <Compile Include="Models\AccountMVCViewModel.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Idea.cs" />
     <Compile Include="Models\IdeasContext.cs" />
@@ -252,6 +254,11 @@
     <Content Include="Views\UsersMvc\Edit.cshtml" />
     <Content Include="Views\UsersMvc\Index.cshtml" />
     <Content Include="Views\DB\Verify.cshtml" />
+    <Content Include="Views\UsersMvc\ForgotPassword.cshtml" />
+    <Content Include="Views\AccountMVC\ForgotPassword.cshtml" />
+    <Content Include="Views\AccountMVC\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\AccountMVC\ResetPassword.cshtml" />
+    <Content Include="Views\AccountMVC\ResetPasswordConfirmation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
